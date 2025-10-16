@@ -10,5 +10,4 @@ describe('Handling mouse hover popup', ()=>{
         cy.contains('Reload').click({force: true});
         cy.url().should('include', 'AutomationPractice');
     });
-
 })
